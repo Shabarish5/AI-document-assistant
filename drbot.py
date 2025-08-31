@@ -11,7 +11,7 @@ from langchain_groq import ChatGroq
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from pypdf import PdfReader
 
-## Uncomment the following files if you're not using pipenv as your virtual environment manager
+
 from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 
